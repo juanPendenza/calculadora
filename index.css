@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#visor {
+  width: 395px;
+  font-size: 50px;
+  border: solid grey 5px;
+  margin: 2px 0;
+  padding: 10px 0 10px 5px;
+}
+
+.fila {
+  width: 100%;
+  margin: 5px;
+}
+.numero {
+  margin: 0 5px;
+  width: 90px;
+  height: 90px;
+  font-size: 50px;
+  border: solid 3px black;
+  border-radius: 20px;
+  background-color: #b5b5b5;
+  box-shadow: -3px 3px 5px black;
+}
+.numero:hover {
+  border-color: grey;
+  background-color: #ccc;
+}
+.numero:active {
+  background-color: #ccc;
+  color: white;
+}
+#btnAC {
+  width: 195px;
+  background-color: #b00;
+  color: white;
+  border-color: red;
+}
+#btnAC:hover {
+  border-color: #b00;
+  background-color: red;
+}
+#btnAC:active {
+  color: black;
+}
+#btnDel {
+  background-color: #b00;
+  color: white;
+  border-color: red;
+}
+#btnDel:hover {
+  border-color: #b00;
+  background-color: red;
+}
+#btnDel:active {
+  color: black;
+}
+#num0 {
+  width: 195px;
+}
